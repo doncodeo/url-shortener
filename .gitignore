@@ -1,0 +1,5 @@
+node_modules
+src/cutUrl.js
+src/deleteLink.js
+src/redirect.js
+delete
