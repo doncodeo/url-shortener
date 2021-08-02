@@ -12,7 +12,7 @@ if(Storage.data.links === undefined){
 }
 
 app.get('/', (req, res) => {
-	res.send("URL Shortener, go to clone code from this repository (https://github.com/doncodeo/url-shortener)")
+	res.send("URL Shortener, clone code from this repository (https://github.com/doncodeo/url-shortener)")
 })
 app.post('/cut', urlLink.cutUrl /*callback*/)
 app.get('/[a-f0-9]{5}', urlLink.Redirect)
